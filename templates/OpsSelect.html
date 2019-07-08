@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Operations Security Checker</title>
+</head>
+<body id="main_body" >
+
+
+	<div id="form_container">
+
+		<h1><a>Select the Ops Scannings you would like to perform for your Application</a></h1>
+		<form id="form_48739" class="appnitro" enctype="multipart/form-data" method="post" action="{{ url_for('handleOpsSelection') }}">
+					<div class="form_description">
+			<h2>Operations Security Checker</h2>
+			<p>This is your form description. Click here to edit.</p>
+		</div>
+			<ul >
+
+		<li id="li_8" >
+		<label class="description" for="element_8">Scan Systeme auswählen Scan Systeme auswählen </label>
+		<span> </br> </br>
+
+			<input id="element_8_1" name="element_8_1" class="element checkbox" type="checkbox" value="1" />
+            <label class="choice" for="element_8_1">REST API Scan</label> </br>
+
+            <input id="element_8_2" name="element_8_2" class="element checkbox" type="checkbox" value="1" />
+            <label class="choice" for="element_8_2">Web Application Scan</label> </br>
+
+            <input id="element_8_3" name="element_8_3" class="element checkbox" type="checkbox" value="1" />
+            <label class="choice" for="element_8_3">NMAP Scan</label> </br>
+
+            <input id="element_8_4" name="element_8_4" class="element checkbox" type="checkbox" value="1" />
+            <label class="choice" for="element_8_4"></label> </br>
+
+            <input id="element_8_5" name="element_8_5" class="element checkbox" type="checkbox" value="1" />
+            <label class="choice" for="element_8_5"></label> </br>
+
+            <input id="element_8_6" name="element_8_6" class="element checkbox" type="checkbox" value="1" />
+            <label class="choice" for="element_8_6"></label> </br>
+
+		</span>
+		</li>
+
+					<li class="buttons">
+			    <input type="hidden" name="form_id" value="48739" />
+
+				<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
+		</li>
+			</ul>
+		</form>
+	</div>
+	</body>
+</html>
