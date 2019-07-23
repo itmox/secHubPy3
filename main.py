@@ -1,13 +1,13 @@
 # -*- coding: UTF-8 -*-
 from flask import Flask
 from flask import Flask, render_template, request, session, redirect, url_for, flash, abort;
-import nmap, sqlite3;
-import inputHandler;
-import os;
-#import helper.db.createDB;
-import helper.generateLink;
-from helper import readPropFiles;
-import docker;
+import nmap, sqlite3
+import inputHandler
+import os
+#import helper.db.createDB
+import helper.generateLink
+from helper import readPropFiles
+import docker
 
 
 # die Session muss noch gespeichert werden. ToDo: Sessions sind hier wichtig, es ist aktuell ein single User System
